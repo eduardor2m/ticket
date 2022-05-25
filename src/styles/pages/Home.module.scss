@@ -1,7 +1,30 @@
 .main {
-  width: 100%;
-  height: 100vh;
-  max-width: 1120px;
-  margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    max-width: 1120px;
+    margin: 0 auto;
+
+    .content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+
+        .wrapper {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+        }
+
+        .img {
+            width: 50%;
+            height: 78%;
+            background-color: #f15bb5;
+            position: relative;
+        }
+    }
 
 }
